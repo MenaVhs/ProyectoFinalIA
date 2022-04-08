@@ -2,14 +2,14 @@
 import cv2
 import os
  
-#crear variable de la ruta donde están las imágenes
+#crear variable de asla ruta donde están las imágenes
 path = r'./img'
 
 #crear una array con el nombre de todos los archivos y carpetas
 #dentro de pathww
 lista = os.listdir(path)
 
-#iterar la lista
+#iterar la listaa
 for i in lista:
     #concatena la ruta + nombre de la imagen
     img = cv2.imread(path+"\\"+i)
