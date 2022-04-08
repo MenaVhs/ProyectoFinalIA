@@ -6,7 +6,7 @@ import os
 path = r'./img'
 
 #crear una array con el nombre de todos los archivos y carpetas
-#dentro de path
+#dentro de pathww
 lista = os.listdir(path)
 
 #iterar la lista
