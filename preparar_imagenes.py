@@ -12,5 +12,6 @@ for i in os.listdir(path):
     #height = int(img.shape[0]*valor)
     #dim = (width, height)
     dim = (64, 64)
+    img = img[60:1000, 430:1370]
     resized = cv2.resize(img, dim)
     cv2.imwrite(path+"\\"+i, resized)
