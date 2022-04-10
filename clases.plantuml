@@ -1,0 +1,22 @@
+@startuml clases
+class Main {
+ +main()
+ +resource_path()
+ +print_image()
+ +upload_file()
+}
+
+
+class GetModel {
+ +get_model_by_url()
+}
+
+class Graficar {
+ +resource_path()
+ +scatter_graph()
+}
+
+Main <|-- GetModel
+Main <|-- Graficar
+
+@enduml

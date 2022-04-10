@@ -1,2 +1,8 @@
-/negativo
-/positivo
+/entrenamiento
+test*.mp4
+/exe
+/dist
+/
+/out
+/build
+/_pycache_
